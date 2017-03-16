@@ -1,6 +1,9 @@
 <h1 style="color:Navy;"><a id="Übe">Stundenprotokoll zum Projekt: Ladybug-Quest</a></h1>
 
 <hr>
+Den Quelltext sowie die Implementeirung finden Sie auf unserer Projekt-Website:
+
+<hr>
 
 <table>
 <thead>
@@ -20,55 +23,35 @@
 </tr>
 <tr>
 <td>01.03.17</td>
-<td align="center">Zunächst </td>
+<td align="center">Um alle Faktoren des Lebens zu betrachten, haben wir zunächst eine "Altersbestimmung" durch eine Zeitvariable erstellt. Erst ab einem bestimmten Alter , sollten sich die Actor vermehren können, dieses Alter haben wir nach naturgetreuem Verhältnis festgelegt. Das Fortpflanzungsalter der Käfer ist dabei erneut höher, als das der Läuse. Damit die Actor sich dann allerdings nicht alle schlagartig auf einmal vermehren, haben wir das Alter jedes Actors per Zufall definiert. Zudem brauchen die Läuse eine Art Vorlaufzeit, da sie sonst von den Marienkäfern direkt zu Begin gefressen werden, ohne sich vermehren zu können. Diese Zeit haben wir in der Käfermethode als "Zeit zum Fressen" definiert. <br> Weiterhin haben wir männliche und weibliche Charactere für beide Actor erstellt. Das Geschlecht wird dabei direkt beim Eintreten eines neuen Actors in die Welt durch Zufall bestimmt. Nur wenn ein männlicher auf einen weiblichen Actor trifft, vermehren sich diese zu der bestimmten Wahrcsheinlichkeit. </td>
 </tr>
 <tr>
-<td>09.01.17</td>
-<td align="center">Ausfall</td>
+<td>02.03.17</td>
+<td align="center">Da die Marienkäfer die Blattläuse nicht "erkennen", wenn sich eine Ansammlung von Blattläusen bildet, bevölkern die Läuse stets die gesamte Welt. Um dies zu verhindern, haben wir einen neuen Actor "Pheromone" erstellt. Diese Pheromone sollen als Lockspur dienen, sodass die Käfer zu einer vermehrten Anzahl an Läusen laufen. Die Läuse lassen diese Pheromone alle paar Tics "liegen". Für die Pheromone haben wir auch noch eine Zeitvariable erstellt, sodass diese nach einer gewissen Zeit -, wenn der Duft verflogen ist, - automatisch vom Bildschirm verschwinden. <br> Die Marienkäfer registrieren stets die Anzahl der sich in einem Radius um sie befindenen Pheromone. Sobald diese Zahl eine bestimmte Größe erreicht hat, wird zufällig ein Pheromon ausgewählt, zu welchem sich der Marienkäfer schließlich bewegt.</td>
 </tr>
 <tr>
-<td>12.01.17</td>
-<td align="center">Ausfall</td>
+<td>08.03.17</td>
+<td align="center">Nach einem ähnlichen Prinzip haben wir eine Methode erstellt, durch welche sich die Läuse "tottrampeln" können, wenn sie zu dicht beieinander sind. Eine Laus registriert dabei alle anderen Läuse, die sich in einem Bestimmten Radius um sie befinden. Sobald diese Größe eine bestimmte Anzahl überschreitet, wird mit einer bestimmten Wahrscheinlichkeit die Laus aus der Welt entfernt. <br> Anschließend kam jedoch bei jedem Durchlauf der Simulation die Fehlermeldung: "Actor not in World" mit dem Verweis auf den Befehl, die Läuse in einem Radius aufzulisten. Das Problem hierbei war, dass wir in der "Public void act"-Methode beider Actor die Sterbenmethode nicht am Ende verortet hatten. Somit hat Greenfoot stetig versucht Läuse aufzulisten, die bereits gestorben waren. <br> Desweiteren haben wir in dieser Stunde über den nächsten Abgabetermin der Klausur gesprochen. </td>
 </tr>
 <tr>
-<td>16.01.17</td>
-<td align="center">. </td>
+<td>09.03.17</td>
+<td align="center">... </td>
 </tr>
 <tr>
-<td>23.01.17</td>
-<td align="center">.</td>
+<td>14.03.17</td>
+<td align="center">In dieser Stunde haben wir unsere Projekt-Website gestartet. Wir haben bereits Überschiften erstellt und diese verlinkt. Zudem haben wir dieses Stundenprotokoll verlinkt und mit dem Schreiben der Texte gestartet.</td>
 </tr>
 <tr>
-<td>26.01.17</td>
-<td align="center"></td>
+<td>16.03.17</td>
+<td align="center">In dieser Stunde haben wir uns erneut der Dokumentation unseres Projektes gewidmet.</td>
 </tr>
 <tr>
-<td>30.01.17</td>
-<td align="center">Ausfall (unterrichtsfreier Tag)</td>
+<td>21.03.17</td>
+<td align="center">...</td>
 </tr>
 <tr>
-<td>02.02.17</td>
-<td align="center">Ausfall</td>
-</tr>
-<tr>
-<td>07.02.17</td>
-<td align="center">.</td>
-</tr>
-<tr>
-<td>09.02.17</td>
-<td align="center">.</td>
-</tr>
-<tr>
-<td>13.02.17</td>
-<td align="center">Eine weitere Übertragung unseres Projektes auf GitHub Pages hat stattgefunden, sodass wir nun auch unseren Überblick über die Stunden auf GitHub Pages verzeichnet haben.</td>
-</tr>
-<tr>
-<td>16.02.17</td>
-<td align="center"><p>.</p></td>
-</tr>
-<tr>
-<td>22.02.17</td>
-<td align="center">.</td>
+<td>23.03.17</td>
+<td align="center">Abgabe der Klausur</td>
 </tr>
 </tbody>
 </table>
