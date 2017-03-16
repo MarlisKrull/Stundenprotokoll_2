@@ -35,15 +35,15 @@ Den Quelltext sowie die Implementeirung finden Sie auf unserer Projekt-Website:
 </tr>
 <tr>
 <td>09.03.17</td>
-<td align="center">... </td>
+<td align="center">Marienkäfer auf einem Fleck... </td>
 </tr>
 <tr>
 <td>14.03.17</td>
-<td align="center">In dieser Stunde haben wir unsere Projekt-Website gestartet. Wir haben bereits Überschiften erstellt und diese verlinkt. Zudem haben wir dieses Stundenprotokoll verlinkt und mit dem Schreiben der Texte gestartet.</td>
+<td align="center">Graph...</td>
 </tr>
 <tr>
 <td>16.03.17</td>
-<td align="center">In dieser Stunde haben wir uns erneut der Dokumentation unseres Projektes gewidmet.</td>
+<td align="center">In dieser Stunde haben wir uns der Dokumentation unseres Projektes gewidmet. Wir haben bereits Überschiften erstellt und diese verlinkt. Zudem haben wir dieses Stundenprotokoll verlinkt und einige Texte geschrieben.</td>
 </tr>
 <tr>
 <td>21.03.17</td>
