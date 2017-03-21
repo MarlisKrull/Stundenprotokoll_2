@@ -1,7 +1,7 @@
 <h1 style="color:Navy;"><a id="Übe">Stundenprotokoll zum Projekt: Ladybug-Quest</a></h1>
 
 <hr>
-<a href=https://marliskrull.github.io/predator-prey-simulation>Den Quelltext sowie die Implementeirung finden Sie auf unserer Projekt-Website</a>
+<p><a href="https://marliskrull.github.io/predator-prey-simulation">Den Quelltext sowie die Implementierung finden Sie auf unserer Projekt-Website </a></p>
 
 <hr>
 
