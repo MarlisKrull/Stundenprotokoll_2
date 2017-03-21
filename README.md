@@ -35,11 +35,11 @@
 </tr>
 <tr>
 <td>09.03.17</td>
-<td align="center">Marienkäfer auf einem Fleck... </td>
+<td align="center">Nach der Einführung der vom 02.03.17 beschrieben Methode, hatten wir das Problem, dass sich die Marienkäfer sobald sie von den Pheromonen angelockt waren, alle komplett identisch verhielten. Sie liefen alle quasi "übereinander" den gleichen Weg ab. Um dies zu ändern, haben wir uns überlegt, dass die Marienkäfer sich alle paar Tics zufällig ein neues Pheromon zugewiesen bekommen, zu dem sie sich bewegen und nicht wie vorher so lange dorthin laufen, bis sich dieses aufgelöst hat. Dafür haben wir einen neuen Timer erstellt. <br> Desweiteren haben wir eine "verhungern"-Methode eingeführt. Bei dieser zählt jeder Marienkäfer, wie viele Läuse er in einem bestimmten Zeitraum gefressen hat. Wenn der Marienkäfer zu wenig gefressen hat, stirbt er. Beim Erstellen dieser Methode haben wir beobachtet, dass die Marienkäfer die Läuse gar nicht mehr fressen, sondern nur über sie hinweglaufen. Im Quelltext haben wir den Fehler gefunden. Die Marienkäfer sollten, wie bereits beschrieben, erst fressen, wenn sie ein bestimmtes Alter erreicht hatten. Da wir den Timer hierfür gleich dem Alter gesetzt hatten, fraßen sie nur bei genau diesem Alter und nicht wenn sie älter waren. Dieses Problem haben wir behoben.</td>
 </tr>
 <tr>
 <td>14.03.17</td>
-<td align="center">Graph...</td>
+<td align="center">Es kam die Überlegung auf, die Population beider Actor in einem Diagramm graphisch festzuhalten. Auf diese Weise lässt sich besser erkennen, welche Population sich gerade vermehrt oder dezimiert. Dafür haben wir eine Methode definiert die alle Objekte in der Welt zählt. Diese Anzahl muss für den neuen Actor "Graph" ersichtlich sein. Leider haben wir die Umsetzung des Graphen nur mit drei neuen Actorn zustande gebracht. So gibt es für den Balken jeder Population jeweils einen Actor, der je nach Populationsgröße steigt oder sinkt. Den dritten Actor stellt der Hintergrund hinter dem Graphen dar, da dieser nicht das Blatt, sondern ein einfacher weißer Hintergund sein sollte. <br> Die Einführung dieses Graphen war uns sehr wichtig, sodass wir durch dieses positive Erlebnis weiter gestärkt wurden.</td>
 </tr>
 <tr>
 <td>16.03.17</td>
@@ -47,11 +47,11 @@
 </tr>
 <tr>
 <td>21.03.17</td>
-<td align="center">...</td>
+<td align="center">Wir haben uns in dieser Stunde damit befasst, den Actor "Hintergrund" als Actor zu entfernen. Um den Hintergrund des Graphen dennoch zu gewährleisten, haben wir in dem World-Editor einen weißen Streifen definiert und diesen lokalisier. Anschließend kam jedoch das Problem auf, dass die Käfer und Läuse über diesen Hintergrund rübergelaufen sind, als wäre es ein Blatt. Dies sollte jedoch nicht so sein. Wir haben das Problem gelöst indem wir definiert haben, dass sich die Läuse und Käfer um 180° drehen, sobald sie die Grenze des Hintergrundwechsels (x-Achse) erreicht haben.</td>
 </tr>
 <tr>
 <td>23.03.17</td>
-<td align="center">Abgabe der Klausur</td>
+<td align="center">Wir haben letzte Änderungen an unserem Projekt und an der Dokumentation getätigt. Die Abgabe der Klausur hat stattgefunden.</td>
 </tr>
 </tbody>
 </table>
