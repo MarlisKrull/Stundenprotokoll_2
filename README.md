@@ -48,7 +48,7 @@ Im anschließenden Testversuch kam es zu einer Überpopulation, sodass wir im n�
 </tr>
 <tr>
 <td>21.03.17</td>
-<td align="center">Wir haben uns in dieser Stunde damit befasst, den Actor "Hintergrund" als Actor zu entfernen. Um den Hintergrund des Graphen dennoch zu gewährleisten, haben wir in dem World-Editor einen weißen Streifen definiert und diesen lokalisiert. Anschließend kam jedoch das Problem auf, dass die Käfer und Läuse über diesen Hintergrund rübergelaufen sind, als wäre es ein Blatt. Dies sollte jedoch nicht so sein. Wir haben das Problem gelöst indem wir definiert haben, dass sich die Läuse und Käfer um 180° drehen, sobald sie die Grenze des Hintergrundwechsels (x-Achse) erreicht haben.</td>
+<td align="center">Wir haben uns in dieser Stunde damit befasst, den Actor <mark> "Hintergrund" als Actor zu entfernen </mark> . Um den Hintergrund des Graphen dennoch zu gewährleisten, haben wir in dem World-Editor einen weißen Streifen definiert und diesen lokalisiert. Anschließend kam jedoch das Problem auf, dass die Käfer und Läuse über diesen Hintergrund rübergelaufen sind, als wäre es ein Blatt. Dies sollte jedoch nicht so sein. Wir haben das Problem gelöst indem wir definiert haben, dass sich die Läuse und Käfer um 180° drehen, sobald sie die Grenze des Hintergrundwechsels (x-Achse) erreicht haben.</td>
 </tr>
 <tr>
 <td>23.03.17</td>
